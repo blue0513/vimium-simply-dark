@@ -1,6 +1,11 @@
+#vimiumHintMarkerContainer div * {
+    font-size: 18px;
+    font-family: "Cambria" !important;
+}
+
 #vimiumHintMarkerContainer div.internalVimiumHintMarker, #vimiumHintMarkerContainer div.vimiumHintMarker {
   padding: 3px 4px;
-  background: #444;
+  background: black;
   border: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -15,11 +20,11 @@
 }
 
 #vimiumHintMarkerContainer div > .matchingCharacter ~ span {
-  color: hotpink;
+  color: #99ccff;
 }
 
 #vomnibar {
-  background: #444;
+  background: black;
   border: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   animation: show 200ms cubic-bezier(0, 0, 0.2, 1) forwards;
@@ -53,7 +58,7 @@
 
 #vomnibar ul {
   padding: 0;
-  background: #444;
+  background: black;
   border-top: 1px solid #333;
 }
 
@@ -81,12 +86,12 @@
 }
 
 #vomnibar li .vomnibarMatch {
-  color: hotpink;
+  color: #99ccff;
   font-weight: normal;
 }
 
 #vomnibar li .vomnibarTitle .vomnibarMatch {
-  color: hotpink;
+  color: #99ccff;
 }
 
 #vomnibar li.vomnibarSelected {
@@ -94,7 +99,7 @@
 }
 
 div.vimiumHUD {
-  background: #444;
+  background: black;
   border: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
